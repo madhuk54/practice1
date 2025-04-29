@@ -2,6 +2,7 @@ package practice1;
 
 public class hospital {
     public static void main(String[] args) {
+        System.out.println("Hospital system working!");
         String patientId = "P12345"; 
         String upiId = "patient@upi"; 
         boolean checkStatus = true; 
