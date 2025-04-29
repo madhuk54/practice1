@@ -15,13 +15,13 @@ pipeline {
 
         stage('Compile') {
             steps {
-                bat 'javac -d out \\practice1\\hospital.java'
+                bat 'javac -d  \\practice1\\hospital.java'
             }
         }
 
         stage('Run') {
             steps {
-                bat 'java -cp out practice1.hospital'
+                bat 'java -cp  practice1.hospital'
             }
         }
     }
