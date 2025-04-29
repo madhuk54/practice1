@@ -15,13 +15,13 @@ pipeline {
 
         stage('Compile') {
             steps {
-                bat 'javac -d hospital.java'
+                bat 'javac  hospital.java'
             }
         }
 
         stage('Run') {
             steps {
-                bat 'java -cp hospital'
+                bat 'java  hospital'
             }
         }
     }
