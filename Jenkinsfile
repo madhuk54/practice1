@@ -21,7 +21,7 @@ pipeline {
 
         stage('Run') {
             steps {
-                bat 'java  hospital'
+                bat 'java  hospital.java'
             }
         }
     }
