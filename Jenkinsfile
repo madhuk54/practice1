@@ -15,7 +15,7 @@ pipeline {
 
         stage('Compile') {
             steps {
-                bat 'javac -d out src\\practice1\\hospital.java'
+                bat 'javac -d out \\practice1\\hospital.java'
             }
         }
 
